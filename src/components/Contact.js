@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
+// in css production
+import './contact.css';
+
 class Contact extends Component {
   // static propTypes = {
   //   name: PropTypes.string.isRequired,
