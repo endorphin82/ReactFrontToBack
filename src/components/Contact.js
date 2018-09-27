@@ -1,29 +1,42 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
 class Contact extends Component {
-  state = {};
+  state = {
+    showContactInfo: true
+  };
 
-  onShowClick = (name, e) => {
-    console.log(name, e.target);
+  onShowClick = e => {
+    this.setState({ showContactInfo: !this.state.showContactInfo });
+    console.log(this.state.showContactInfo);
   };
 
   render() {
-    const { name, email, phone} = this.props.contact ;
+    const { name, email, phone} = this.props.contact;
+    const { showContactInfo } = this.state;
 
     return (
 
       <div className="card card-body mb-3">
         <h4>{name} {' '}
           <i
-            onClick={this.onShowClick.bind(this, name)}
-            className="fas fa-sort-down"
+            onClick={this.onShowClick}
+            className={
+              classnames(
+                "fas",
+                {"fa-sort-up": !showContactInfo,
+                  "fa-sort-down": showContactInfo}
+              )
+            }
           />
         </h4>
-        <ul className="list-group">
+        {showContactInfo ? <ul className="list-group">
           <li className="list-group-item">Email: {email}</li>
           <li className="list-group-item">Phone: {phone}</li>
         </ul>
+        : null}
+
       </div>
     );
   }
