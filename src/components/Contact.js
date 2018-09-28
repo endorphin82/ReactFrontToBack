@@ -4,7 +4,12 @@ import classnames from 'classnames';
 
 class Contact extends Component {
   state = {
-    showContactInfo: true
+    showContactInfo: false
+  };
+
+  onDeleteClick = () => {
+    this.props.deleteClickHandler();
+    console.log('onDeleteClick');
   };
 
   render() {
@@ -26,6 +31,12 @@ class Contact extends Component {
                   "fa-sort-down": showContactInfo}
               )
             }
+            style={{ cursor: 'pointer' }}
+          />
+          <i
+            className="fas fa-times"
+            style={{ cursor: 'pointer', float: 'right', color: 'red' }}
+            onClick={this.onDeleteClick}
           />
         </h4>
         {showContactInfo ? <ul className="list-group">
@@ -40,7 +51,8 @@ class Contact extends Component {
 }
 
 Contact.propTypes = {
-  contact: PropTypes.object.isRequired
+  contact: PropTypes.object.isRequired,
+  deleteClickHandler: PropTypes.func.isRequired
 };
 
 export default Contact;
