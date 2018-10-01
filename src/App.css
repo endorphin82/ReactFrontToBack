@@ -1,0 +1,10 @@
+/*
+Contact.js
+*/
+.del {
+    opacity: 0.5;
+}
+.del:hover {
+     opacity: 1.0;
+     transition: all 0.7s ease;
+ }
