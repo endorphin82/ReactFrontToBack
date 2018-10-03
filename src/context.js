@@ -47,6 +47,13 @@ export class Provider extends Component {
     dispatch: action => this.setState(state => reducer(state, action))
   };
 
+  componentDidUpdate(prevProps, prevState) {
+    console.log('componentDidUpdate...', prevProps, prevState );
+  }
+  componentWillUpdate(nextProps, nextState) {
+    console.log('componentWillUpdate...', nextProps, nextState );
+  }
+
   render() {
     return (
       <Context.Provider value={this.state}>
