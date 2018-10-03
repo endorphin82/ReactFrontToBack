@@ -1,11 +1,13 @@
 {
   "name": "contactmanager",
   "version": "0.1.0",
+  "homepage": "endorphin82.github.io/ReactFrontToBack",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -14,6 +16,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
