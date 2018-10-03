@@ -12,6 +12,8 @@ class AddContact extends Component {
     errors: {}
   };
 
+
+
   onChange = e => this.setState({[e.target.name]: e.target.value});
 
   onSubmit = (dispatch, e) => {
@@ -52,6 +54,9 @@ class AddContact extends Component {
       phone: '',
       errors: {}
     });
+
+    // Redirect To Home
+    this.props.history.push('/')
   };
 
   render() {
