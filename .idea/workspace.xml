@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="987307f7-a0e1-45d2-bc6c-f61c9264fc1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -394,12 +393,12 @@
       <workItem from="1538417771485" duration="8914000" />
       <workItem from="1538524777415" duration="1021000" />
       <workItem from="1538526549379" duration="2676000" />
-      <workItem from="1538529301687" duration="22313000" />
+      <workItem from="1538529301687" duration="23069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71812000" />
+    <option name="totallyTimeSpent" value="72568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,9 +411,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="368" y="15" width="992" height="681" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6748166" visible="true" weight="0.2712042" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6748166" visible="true" weight="0.2712042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.32518336" side_tool="true" weight="0.33118972" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -428,7 +426,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="YouTrack" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20725389" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.54058725" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
