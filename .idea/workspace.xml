@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="987307f7-a0e1-45d2-bc6c-f61c9264fc1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/AddContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/AddContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -63,14 +61,14 @@
         <counts>
           <entry key="css" value="53" />
           <entry key="html" value="6" />
-          <entry key="js" value="6891" />
+          <entry key="js" value="7054" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="53" />
           <entry key="HTML" value="6" />
-          <entry key="JavaScript" value="6891" />
+          <entry key="JavaScript" value="7054" />
         </counts>
       </usages-collector>
     </session>
@@ -116,13 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/contacts/AddContact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="150">
+              <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#110#136#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/contacts/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -140,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/context.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="140">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -202,11 +201,12 @@
         <option value="$PROJECT_DIR$/src/components/contacts/Contacts.js" />
         <option value="$PROJECT_DIR$/src/components/layout/Header.js" />
         <option value="$PROJECT_DIR$/src/components/pages/About.js" />
-        <option value="$PROJECT_DIR$/src/components/contacts/AddContact.js" />
         <option value="$PROJECT_DIR$/src/components/pages/NotFound.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/test/Test.js" />
         <option value="$PROJECT_DIR$/src/context.js" />
+        <option value="$PROJECT_DIR$/src/components/contacts/Contact.js" />
+        <option value="$PROJECT_DIR$/src/components/contacts/AddContact.js" />
       </list>
     </option>
   </component>
@@ -377,12 +377,12 @@
       <workItem from="1538417771485" duration="8914000" />
       <workItem from="1538524777415" duration="1021000" />
       <workItem from="1538526549379" duration="2676000" />
-      <workItem from="1538529301687" duration="14007000" />
+      <workItem from="1538529301687" duration="15119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63506000" />
+    <option name="totallyTimeSpent" value="64618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,7 +397,7 @@
     <frame x="579" y="27" width="704" height="681" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6748166" visible="true" weight="0.27136433" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6748166" visible="true" weight="0.27136433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.32518336" side_tool="true" weight="0.33118972" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -411,7 +411,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="YouTrack" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42141622" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42141622" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -570,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts/AddContact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -611,6 +601,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contacts/Contacts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -621,17 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contacts/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -640,10 +630,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/context.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="140">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contacts/AddContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#110#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
