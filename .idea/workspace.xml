@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1ef8882-e09c-4fd4-82b9-e6f3f225d089" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/contactActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/contactReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/contactReducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,7 +102,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="12" />
+          <entry key="js" value="13" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -112,12 +110,12 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="917" />
+          <entry key="js" value="1004" />
           <entry key="json" value="4" />
           <entry key="txt" value="8" />
         </counts>
@@ -125,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="917" />
+          <entry key="JavaScript" value="1004" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -202,8 +200,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/contacts/Contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -212,13 +210,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/contacts/AddContact.js">
+        <entry file="file://$PROJECT_DIR$/src/actions/contactActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -292,6 +287,7 @@
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/reducers/contactReducer.js" />
+        <option value="$PROJECT_DIR$/src/actions/contactActions.js" />
         <option value="$PROJECT_DIR$/src/components/contacts/Contacts.js" />
       </list>
     </option>
@@ -473,12 +469,12 @@
       <workItem from="1538709395643" duration="4617000" />
       <workItem from="1538752715677" duration="698000" />
       <workItem from="1538753721899" duration="3682000" />
-      <workItem from="1538757838919" duration="3459000" />
+      <workItem from="1538757838919" duration="3787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88770000" />
+    <option name="totallyTimeSpent" value="89098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,11 +491,11 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.625" visible="true" weight="0.32766616" />
       <window_info id="Structure" order="1" sideWeight="0.42753622" side_tool="true" weight="0.2712042" />
-      <window_info id="npm" order="2" sideWeight="0.375" side_tool="true" visible="true" weight="0.32766616" />
+      <window_info id="npm" order="2" sideWeight="0.375" side_tool="true" weight="0.32766616" />
       <window_info id="Favorites" order="3" sideWeight="0.42753622" side_tool="true" weight="0.2712042" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29360968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29360968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,7 +503,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="YouTrack" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49842933" visible="true" weight="0.28151986" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49842933" weight="0.28151986" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015707" side_tool="true" weight="0.2849741" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -717,10 +713,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/contactActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contacts/Contacts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
