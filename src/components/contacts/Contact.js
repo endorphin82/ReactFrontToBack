@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import classnames from 'classnames';
-// import axios from 'axios';
+import { connect } from 'react-redux';
 
-// import { Consumer } from "../../context";
+import { deleteContact} from "../../actions/contactActions";
 
 class Contact extends Component {
   state = {
@@ -12,33 +12,9 @@ class Contact extends Component {
   };
 
   onDeleteClick = id => {
-    //DELETE CONTACT
+    this.props.deleteContact(id);
   };
 
-  // onDeleteClick = (id, dispatch) => {
-  //   axios
-  //     .delete(`https://jsonplaceholder.typicode.com/users/${id}`)
-  //     .then(res => dispatch({type:
-  //         'DELETE_CONTACT', payload: id }));
-  // };
-
-  // async/await
-  //  onDeleteClick = async (id, dispatch) => {
-  //    try {
-  //      await axios
-  //        .delete(`https://jsonplaceholder.typicode.com/users/${id}`);
-  //         dispatch({
-  //        type: 'DELETE_CONTACT',
-  //        payload: id
-  //      });
-  //    } catch (e) {
-  //        dispatch({
-  //          type: 'DELETE_CONTACT',
-  //          payload: id
-  //         });
-  //       }
-  // };
-  
   render() {
     const { id, name, email, phone} = this.props.contact;
     const { showContactInfo } = this.state;
@@ -83,7 +59,8 @@ class Contact extends Component {
 }
 
 Contact.propTypes = {
-  contact: PropTypes.object.isRequired
+  contact: PropTypes.object.isRequired,
+  deleteContact: PropTypes.func.isRequired
 };
 
-export default Contact;
+export default connect(null, {deleteContact}) (Contact);

@@ -60,7 +60,7 @@ class EditContact extends Component {
       <div className="card mb-3">
         <div className="card-header">Edit Contact</div>
         <div className="card-body">
-          <form onSubmit={this.onSubmit}>
+          <form noValidate={true} onSubmit={this.onSubmit}>
             <TextInputGroup
               label="Name"
               name="name"
