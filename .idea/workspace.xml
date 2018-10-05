@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1ef8882-e09c-4fd4-82b9-e6f3f225d089" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c0784ae7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c0784ae7.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,7 +23,7 @@
     <session id="231370638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.20" value="1" />
@@ -37,7 +40,7 @@
           <entry key="cmd" value="1" />
           <entry key="css" value="8" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="2" />
+          <entry key="html" value="3" />
           <entry key="js" value="30" />
           <entry key="json" value="5" />
           <entry key="map" value="1" />
@@ -49,7 +52,7 @@
         <counts>
           <entry key="CSS" value="8" />
           <entry key="Git file" value="3" />
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="30" />
           <entry key="Markdown" value="1" />
@@ -91,17 +94,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="10">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -151,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/components/contacts/EditContact.js" />
         <option value="$PROJECT_DIR$/src/context.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -172,9 +180,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="630" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="207" />
+    <option name="y" value="18" />
     <option name="width" value="992" />
     <option name="height" value="681" />
   </component>
@@ -194,6 +202,11 @@
             <path>
               <item name="ReactFrontToBack" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactFrontToBack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReactFrontToBack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactFrontToBack" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReactFrontToBack" type="b2602c69:ProjectViewProjectNode" />
@@ -301,12 +314,12 @@
       <workItem from="1538526549379" duration="2676000" />
       <workItem from="1538529301687" duration="23069000" />
       <workItem from="1538591795214" duration="152000" />
-      <workItem from="1538592007523" duration="1310000" />
+      <workItem from="1538592007523" duration="2926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74445000" />
+    <option name="totallyTimeSpent" value="76061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,7 +331,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="27" width="992" height="681" extended-state="0" />
+    <frame x="207" y="18" width="992" height="681" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57246375" visible="true" weight="0.2712042" />
@@ -355,7 +368,6 @@
     <entry file="file://$PROJECT_DIR$/git.cmd" />
     <entry file="file://$PROJECT_DIR$/build/static/css/main.4373b725.css.map" />
     <entry file="file://$PROJECT_DIR$/build/static/css/main.4373b725.css" />
-    <entry file="file://$PROJECT_DIR$/build/index.html" />
     <entry file="file://$PROJECT_DIR$/build/static/js/main.03d7d6eb.js" />
     <entry file="file://$PROJECT_DIR$/src/components/contact.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/README.md">
@@ -446,19 +458,22 @@
     <entry file="file://$PROJECT_DIR$/src/components/contacts/EditContact.js" />
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="10">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

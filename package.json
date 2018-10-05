@@ -1,7 +1,7 @@
 {
   "name": "contactmanager",
   "version": "0.1.0",
-  "homepage": "endorphin82.github.io/ReactFrontToBack",
+  "homepage": "endorphin82.github.io/reactfronttoback",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
