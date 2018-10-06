@@ -3,7 +3,9 @@ import axios from 'axios';
 import {
   ADD_CONTACT,
   DELETE_CONTACT,
-  GET_CONTACTS} from "./types";
+  GET_CONTACTS,
+  GET_CONTACT,
+  UPDATE_CONTACT} from "./types";
 
 export const getContacts = () => async dispatch => {
   const res = await axios.get('https://jsonplaceholder.typicode.com/users');
@@ -12,6 +14,15 @@ export const getContacts = () => async dispatch => {
     payload: res.data
   });
 };
+
+export const getContact = id => async dispatch => {
+  const res = await axios.get(`https://jsonplaceholder.typicode.com/users/${id}`);
+  dispatch ({
+    type: GET_CONTACT,
+    payload: res.data
+  });
+};
+
 
 export const deleteContact = id => async dispatch => {
   try {
